@@ -1,0 +1,16 @@
+{
+  "ras_module": {
+    "entrypoint": "build_ras",
+    "call": "positional",
+    "args": [
+      "input_path"
+    ]
+  },
+  "tiv_module": {
+    "entrypoint": "build_tiv",
+    "call": "positional",
+    "args": [
+      "input_path"
+    ]
+  }
+}
